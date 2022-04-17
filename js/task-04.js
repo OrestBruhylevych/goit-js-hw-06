@@ -10,11 +10,9 @@ refs.value.textContent = counterValue;
 
 const onIncreaseValueButtonClick = () => {
     refs.value.textContent = Number(refs.value.textContent) +1 ;
-    console.log('click+1');
  };
 const onDecreaseValueButtonClick = () => { 
     refs.value.textContent = Number(refs.value.textContent) -1;
-    console.log('click-1');
 };
 
 refs.increaseValueButton.addEventListener('click', onIncreaseValueButtonClick);
