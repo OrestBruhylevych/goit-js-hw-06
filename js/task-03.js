@@ -21,8 +21,8 @@ const refs = {
 
 
 const makeGalleryContentMarkup = ({ url, alt }) => {
-  return `<li>
-        <img src="${url}" alt="${alt}" width="50" />
+  return `<li class="item">
+        <img class='image' src="${url}" alt="${alt}" width="360" />
       </li>`;
 };
 
